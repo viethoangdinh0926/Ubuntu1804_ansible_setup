@@ -1,0 +1,32 @@
+---
+- name: Install Chrome .deb package
+  become: true
+  apt:
+    deb: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+- name: Fix any broken deps
+  become: true
+  shell: |
+    apt-get -y -f install
+  args:
+    executable: /bin/bash
+
+- name: Fix directory ownership
+  become: true
+  shell: |
+    mkdir -p /home/tom/.cache
+    chown tom /home/tom/.cache
+  args:
+    executable: /bin/bash
+
+- name: Make Chrome Bookmark directory
+  file:
+    path: "/home/tom/.config/google-chrome/Default"
+    state: directory
+    mode: 0777
+
+- name: Copy Bookmarks
+  copy:
+    src: "../files/Bookmarks"
+    dest:  "/home/tom/.config/google-chrome/Default/Bookmarks"
+    mode: 0555

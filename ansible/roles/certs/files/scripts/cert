@@ -1,0 +1,11 @@
+#!/bin/bash
+set -ex
+
+mkdir -p /home/tom/.pki/nssdb
+certutil -A -d sql:/home/tom/.pki/nssdb -i /usr/local/share/ca-certificates/EMC_Decrypt.crt -n EMC_Decrypt -t "C,,,"
+certutil -A -d sql:/home/tom/.pki/nssdb -i /usr/local/share/ca-certificates/EMCSSLDecryptionCAv2.crt -n EMC_DecryptionCAv2 -t "C,,,"
+certutil -A -d sql:/home/tom/.pki/nssdb -i /usr/local/share/ca-certificates/EMC_Internal.crt -n EMC_Internal -t "C,,,"
+certutil -A -d sql:/home/tom/.pki/nssdb -i /usr/local/share/ca-certificates/EMC_ROOT.crt -n EMC_ROOT -t "C,,,"
+certutil -A -d sql:/home/tom/.pki/nssdb -i /usr/local/share/ca-certificates/EMC_SSL.crt -n EMC_SSL -t "C,,,"
+certutil -A -d sql:/home/tom/.pki/nssdb -i /usr/local/share/ca-certificates/EMC_User.crt -n EMC_User -t "C,,,"
+

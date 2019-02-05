@@ -1,0 +1,37 @@
+---
+- name: Clean bash_it
+  become: true
+  shell: |
+    rm -rf ~/.bash_it
+
+- name: Clone bash_it
+  git:
+    repo: https://github.com/Bash-it/bash-it.git
+    dest: ~/.bash_it
+    depth: 1
+
+- name: Install bash_it
+  command: ~/.bash_it/install.sh --silent
+
+- name: Copy config
+  copy:
+    src: "../files/custom"
+    dest:  "~/.bash_it/custom"
+
+- name: insert our custom stuff to .bashrc
+  blockinfile:
+    path: ~/.bashrc
+    marker: "#BASHRC base block"
+    block: |
+      # Our custom things
+      source ~/.gvm/scripts/gvm
+      export BASH_IT_THEME='bakke'
+      export GIT_TERMINAL_PROMPT=1
+      git config --global credential.helper 'cache --timeout=3600'
+      git config --global push.default simple
+      PROMPT_DIRTRIM=2
+      shopt -s cdable_vars
+      export EDITOR=vim
+      export GIT_DUET_ROTATE_AUTHOR=1
+      export GIT_DUET_GLOBAL=true
+      git config --global alias.ci duet-commit

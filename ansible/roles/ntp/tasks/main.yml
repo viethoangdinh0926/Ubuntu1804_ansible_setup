@@ -1,0 +1,5 @@
+---
+- name: Set NTP server
+  shell: |
+    echo "NTP=minnie.lss.emc.com" | tee --append /etc/systemd/timesyncd.conf
+  become: true

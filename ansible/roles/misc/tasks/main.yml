@@ -1,0 +1,25 @@
+---
+- name: Copy scripts
+  become: true
+  copy:
+    src: "../files/"
+    dest:  "/usr/local/bin/"
+
+- name: Set desktop settings
+  become: true
+  shell: |
+    gsettings set org.gnome.desktop.interface clock-format '12h'
+    gsettings set org.gnome.desktop.interface clock-show-seconds true
+    gsettings set org.gnome.desktop.interface clock-show-date true
+    gsettings set org.gnome.desktop.calendar show-weekdate true
+  when: ansible_distribution == 'Ubuntu' and ansible_distribution_release == 'bionic'
+
+- name: Set desktop settings
+  become: true
+  shell: |
+    gsettings set com.canonical.indicator.datetime time-format '12-hour'
+    gsettings set com.canonical.indicator.datetime show-seconds true
+    gsettings set com.canonical.indicator.datetime show-date true
+    gsettings set com.canonical.indicator.datetime show-day true
+  when: ansible_distribution == 'Ubuntu' and ansible_distribution_release == 'xenial'
+

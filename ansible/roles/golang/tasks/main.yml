@@ -1,0 +1,21 @@
+---
+- name: Check if gvm is installed
+  shell: command -v gvm >/dev/null 2>&1
+  args:
+    executable: /bin/bash
+  register: does_gvm_exist
+  ignore_errors: yes
+
+- name: Install GVM
+  shell: |
+    bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+    source ~/.gvm/scripts/gvm
+    gvm install go1.4 -B
+    gvm use go1.4
+    export GOROOT_BOOTSTRAP=$GOROOT
+    gvm install {{ go_version }}
+    gvm use {{ go_version }} --default
+
+  args:
+    executable: /bin/bash
+  when: does_gvm_exist is failed

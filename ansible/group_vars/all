@@ -1,0 +1,8 @@
+---
+# Vaiables listed here are applicable to all host groups
+concourse_version: v3.9.2
+docker_compose_version: 1.19.0
+docker_version: 18.03.0~ce-0~
+duet_version: 0.5.2
+go_version: go1.10.1
+vbox_version: 5.2.8/virtualbox-5.2_5.2.8-121009~Ubuntu~xenial

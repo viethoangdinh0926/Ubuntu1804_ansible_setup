@@ -1,0 +1,16 @@
+---
+- name: Download Virtualbox with check (sha256)
+  get_url:
+    url: https://download.virtualbox.org/virtualbox/{{ vbox_version }}_amd64.deb
+    dest: /tmp/virtualbox_latest.deb
+    checksum: sha256:3a0b988999ef2df2785108b95ef8ad6776fedcd2a432e4d444a25ec16b9e2c6c
+- name: Install vbox .deb package
+  become: true
+  apt:
+    deb: /tmp/virtualbox_latest.deb
+- name: Fix any broken deps
+  become: true
+  shell: |
+    apt-get -y -f install
+  args:
+    executable: /bin/bash

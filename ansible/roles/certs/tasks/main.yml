@@ -1,0 +1,32 @@
+---
+- name: Copy Certs
+  become: true
+  copy:
+    src: "../files/sslcerts/"
+    dest:  "/usr/local/share/ca-certificates/"
+
+- name: Update the CA certs
+  shell: "update-ca-certificates"
+  become: true
+
+- name: Copy Chrome Cert Script
+  become: true
+  copy:
+    src: "../files/scripts/cert"
+    dest: "/usr/local/bin/cert"
+    mode: 0755
+
+- name: Update repositories cache and install libnss3-tools package
+  apt:
+    name: libnss3-tools
+    update_cache: yes
+  become: true
+  
+- name: Make the cert script executable
+  become: true
+  shell: |
+    chmod +x /home/tom/setup/ansible/roles/certs/files/scripts/cert
+    
+- name: Install ssh certs
+  shell: |
+    /home/tom/setup/ansible/roles/certs/files/scripts/cert

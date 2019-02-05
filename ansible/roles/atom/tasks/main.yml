@@ -1,0 +1,26 @@
+---
+- name: Install Atom .deb package
+  become: true
+  apt:
+    deb: https://atom.io/download/deb
+- name: Fix any broken deps
+  become: true
+  shell: |
+    apt-get -y -f install
+  args:
+    executable: /bin/bash
+- name: Copy Atom package list
+  copy:
+    src: "../files/packages.txt"
+    dest:  "/tmp/packages.txt"
+- name: Install packages
+  shell : |
+    apm install --packages-file /tmp/packages.txt
+- file:
+    path: "~/.atom"
+    state: directory
+    mode: 0755
+- name: Copy Atom configs
+  copy:
+    src: "../files/configs/"
+    dest:  "~/.atom/"

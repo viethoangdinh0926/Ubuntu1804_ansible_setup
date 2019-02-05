@@ -1,0 +1,14 @@
+---
+- name: Update repositories cache and install terminator package
+  apt:
+    name: terminator
+    update_cache: yes
+  become: true
+- file:
+    path: "~/.config/terminator"
+    state: directory
+    mode: 0755
+- name: Copy config
+  copy:
+    src: "../files/config"
+    dest:  "~/.config/terminator/config"

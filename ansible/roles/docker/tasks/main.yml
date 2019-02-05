@@ -1,0 +1,47 @@
+---
+- name: Install Docker .deb package
+  become: true
+  ignore_errors: yes
+  apt:
+    deb: https://download.docker.com/linux/ubuntu/dists/xenial/pool/edge/amd64/docker-ce_{{ docker_version }}ubuntu_amd64.deb
+
+- name: Fix any broken deps
+  become: true
+  shell: |
+    apt-get -y -f install
+  args:
+    executable: /bin/bash
+
+- name: configure docker
+  become: true
+  shell: |
+    usermod -aG docker tom
+    systemctl enable docker
+  args:
+    executable: /bin/bash
+
+- name: Copy scripts
+  become: true
+  copy:
+    src: "../files/scripts/"
+    dest:  "/usr/local/bin/"
+    mode: 0777
+
+- name: Ethan's Docker directory creation
+  become: true
+  file:
+    path: "/etc/docker"
+    state: directory
+    mode: 0700
+
+- name: Copy config
+  become: true
+  copy:
+    src: "../files/daemon.json"
+    dest:  "/etc/docker/daemon.json"
+
+- name: Download docker-compose
+  get_url:
+    url: https://github.com/docker/compose/releases/download/{{ docker_compose_version }}/docker-compose-Linux-x86_64
+    dest: /usr/local/bin/docker-compose
+    mode: 0755

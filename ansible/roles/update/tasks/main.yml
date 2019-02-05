@@ -1,0 +1,27 @@
+---
+- name: Update all the things
+  apt:
+    upgrade: dist
+    update_cache: yes
+  become: true
+- name: Install list of packages
+  apt: name={{item}} state=present
+  become: true
+  with_items:
+       - git
+       - bison
+       - vim
+       - openssh-server
+       - npm
+       - curl
+       - openjdk-8-jdk
+       - nmap
+       - x11vnc
+       - cifs-utils
+       - jq
+       - binutils
+       - gcc
+       - make
+       - libxss1
+       - libappindicator1
+       - libindicator7

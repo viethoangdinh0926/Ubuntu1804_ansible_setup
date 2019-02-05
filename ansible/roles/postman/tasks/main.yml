@@ -1,0 +1,12 @@
+---
+- name: Postman
+  become: true
+  shell: |
+    wget https://dl.pstmn.io/download/latest/linux64 -O /tmp/postman.tar.gz
+    rm -rf /opt/Postman
+    sudo tar -xzf /tmp/postman.tar.gz -C /opt
+    rm /tmp/postman.tar.gz
+    rm -f /usr/bin/postman
+    sudo ln -s /opt/Postman/Postman /usr/bin/postman
+  args:
+    executable: /bin/bash

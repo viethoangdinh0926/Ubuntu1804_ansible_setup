@@ -1,0 +1,19 @@
+---
+# This Playbook configures a workstation from scratch
+- name: All the things
+  hosts: all
+  roles:
+  - role: certs
+  - role: ntp
+  - role: update
+#  - role: vbox
+  - role: chrome
+  - role: terminator
+  - role: atom
+  - role: golang
+  - role: bash_it
+  - role: git-duet
+  - role: fly
+  - role: docker
+  - role: misc
+  - role: postman
