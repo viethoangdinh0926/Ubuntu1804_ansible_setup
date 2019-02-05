@@ -9,7 +9,7 @@
 #  - role: vbox
   - role: chrome
   - role: terminator
-  - role: atom
+#  - role: atom
   - role: golang
   - role: bash_it
   - role: git-duet

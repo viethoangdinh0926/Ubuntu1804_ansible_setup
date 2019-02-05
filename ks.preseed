@@ -58,5 +58,4 @@ ubiquity ubiquity/success_command string \
     in-target chmod +x /home/tom/setup/run-ansible.sh;\
     in-target chown -R tom.tom /home/tom;\
     echo "gnome-terminal" >> /target/home/tom/.profile;\
-    echo "gnome-terminal -- sh -c 'sleep 15; /home/tom/setup/run-ansible.sh; exec $SHELL'" >> /target/home/tom/.bashrc;\
-    #in-target chmod +x /home/tom/Desktop/setup.sh
+    echo "gnome-terminal -- sh -c 'sleep 15; /home/tom/setup/run-ansible.sh; exec $SHELL'" >> /target/home/tom/.bashrc

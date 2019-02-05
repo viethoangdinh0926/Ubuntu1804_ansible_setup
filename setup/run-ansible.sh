@@ -18,18 +18,18 @@ echo "    127.0.0.1" | sudo tee --append /etc/ansible/hosts
 sudo chmod a+w /var/log
 touch /var/log/ansible.log
 
-#cd /tmp
-#rm -rf ubuntu_boilerplate
-#git clone https://tepbjppl:amymullins2018@github.com/ekaley/ubuntu_boilerplate.git
+cd /tmp
+rm -rf Ubuntu1804_ansible_setup
+git clone https://github.com/viethoangdinh0926/Ubuntu1804_ansible_setup
 
-cd /home/tom/setup/ansible
+cd Ubuntu1804_ansible_setup/ansible
+
 ansible-playbook site.yml --connection=local -vv --extra-vars 'ansible_become_pass=IloveEMC'
 
 echo "IloveEMC" | sudo -S sed -i '$d' /home/tom/.profile
 echo "IloveEMC" | sudo -S sed -i '/gnome-terminal/d' /home/tom/.bashrc
 echo "IloveEMC" | sudo -S sed -i '/AutomaticLogin/d' /etc/gdm3/custom.conf
-
-echo "IloveEMC" | sudo reboot
+reboot
 }
 
 setup | tee /home/tom/Desktop/log
