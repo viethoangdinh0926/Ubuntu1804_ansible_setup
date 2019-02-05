@@ -22,7 +22,7 @@ cd /tmp
 rm -rf Ubuntu1804_ansible_setup
 git clone https://github.com/viethoangdinh0926/Ubuntu1804_ansible_setup.git
 
-cd Ubuntu1804_ansible_setup/ansible
+cd Ubuntu1804_ansible_setup/setup/ansible
 
 ansible-playbook site.yml --connection=local -vv --extra-vars 'ansible_become_pass=IloveEMC'
 

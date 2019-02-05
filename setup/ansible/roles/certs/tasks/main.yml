@@ -25,8 +25,8 @@
 - name: Make the cert script executable
   become: true
   shell: |
-    chmod +x /tmp/Ubuntu1804_ansible_setup/ansible/roles/certs/files/scripts/cert
+    chmod +x /tmp/Ubuntu1804_ansible_setup/setup/ansible/roles/certs/files/scripts/cert
     
 - name: Install ssh certs
   shell: |
-    /tmp/Ubuntu1804_ansible_setup/ansible/roles/certs/files/scripts/cert
+    /tmp/Ubuntu1804_ansible_setup/setup/ansible/roles/certs/files/scripts/cert
