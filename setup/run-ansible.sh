@@ -20,7 +20,7 @@ touch /var/log/ansible.log
 
 cd /tmp
 rm -rf Ubuntu1804_ansible_setup
-git clone https://github.com/viethoangdinh0926/Ubuntu1804_ansible_setup
+git clone https://github.com/viethoangdinh0926/Ubuntu1804_ansible_setup.git
 
 cd Ubuntu1804_ansible_setup/ansible
 
