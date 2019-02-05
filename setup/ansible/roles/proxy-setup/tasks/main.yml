@@ -1,0 +1,8 @@
+---
+- name: Update environment file
+  become: true
+  shell: |
+        /bin/sh -c 'echo http_proxy="http://168.159.213.214:80/" >> /etc/environment'
+        /bin/sh -c 'echo https_proxy="http://168.159.213.214:80/" >> /etc/environment'
+        /bin/sh -c 'echo no_proxy="localhost, 127.0.0.0/8, ::1, *emc.com, *dell.com, 10.0.0.0/8" >> /etc/environment'
+

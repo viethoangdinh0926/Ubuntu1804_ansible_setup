@@ -1,7 +1,7 @@
 ---
 # Vaiables listed here are applicable to all host groups
-concourse_version: v3.9.2
-docker_compose_version: 1.19.0
+concourse_version: v4.2.2
+docker_compose_version: 1.23.2
 docker_version: 18.03.0~ce-0~
 duet_version: 0.5.2
 go_version: go1.10.1

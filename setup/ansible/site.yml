@@ -17,3 +17,4 @@
   - role: docker
   - role: misc
   - role: postman
+  - role: proxy-setup
