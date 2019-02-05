@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -ex
+
 setup () {
 echo "IloveEMC" | sudo -S apt update
 echo "IloveEMC" | sudo -S rm /var/lib/apt/lists/lock
