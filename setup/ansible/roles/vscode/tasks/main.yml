@@ -4,12 +4,12 @@
   shell: |
     apt install snap
 
-  name: Install VSCode
+- name: Install VSCode
   become: true
   shell: |
     snap install vscode --classic
 
-  name: Install extensions
+- name: Install extensions
   shell: |
     code --install-extension --force bungcip.better-toml
     code --install-extension --force DavidAnson.vscode-markdownlint
@@ -21,7 +21,7 @@
     code --install-extension --force robertohuertasm.vscode-icons
     code --install-extension --force wayou.vscode-todo-highlight
   
-  name: Add configurations
+- name: Add configurations
   copy:
     src: "/tmp/Ubuntu1804_ansible_setup/setup/ansible/roles/vscode/files/settings.json"
     dest:  "~/.config/Code/User/settings.json"
