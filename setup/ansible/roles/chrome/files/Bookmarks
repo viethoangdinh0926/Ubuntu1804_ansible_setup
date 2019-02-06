@@ -1,120 +1,25 @@
-{
-   "checksum": "54494a7e75c1a41b042e4920d6f18b75",
-   "roots": {
-      "bookmark_bar": {
-         "children": [ {
-            "date_added": "13167167645641439",
-            "id": "7",
-            "meta_info": {
-               "last_visited_desktop": "13167168483966510"
-            },
-            "name": "event-horizon",
-            "type": "url",
-            "url": "https://eos2git.cec.lab.emc.com/Katalist/event-horizon"
-         }, {
-            "date_added": "13167167707643572",
-            "id": "8",
-            "meta_info": {
-               "last_visited_desktop": "13167167707644417"
-            },
-            "name": "Pivotal Tracker",
-            "type": "url",
-            "url": "https://www.pivotaltracker.com/dashboard"
-         }, {
-            "date_added": "13167167759629440",
-            "id": "9",
-            "meta_info": {
-               "last_visited_desktop": "13167167759630550"
-            },
-            "name": "Concourse",
-            "type": "url",
-            "url": "https://10.240.18.31/teams/main/pipelines/event-horizon"
-         }, {
-            "date_added": "13167167800815071",
-            "id": "10",
-            "meta_info": {
-               "last_visited_desktop": "13167167800815739"
-            },
-            "name": "Docker Registry",
-            "type": "url",
-            "url": "http://10.240.16.225:8080/"
-         }, {
-            "date_added": "13167168019944047",
-            "id": "15",
-            "meta_info": {
-               "last_visited_desktop": "13167168484670425"
-            },
-            "name": "vCenter",
-            "type": "url",
-            "url": "https://vc01.ose.lab.emc.com/"
-         }, {
-            "date_added": "13167167814007586",
-            "id": "11",
-            "meta_info": {
-               "last_visited_desktop": "13167167814008383"
-            },
-            "name": "Workstation",
-            "type": "url",
-            "url": "https://github.com/ekaley/ubuntu_boilerplate"
-         }, {
-            "date_added": "13167167929905866",
-            "id": "12",
-            "meta_info": {
-               "last_visited_desktop": "13167167929906966"
-            },
-            "name": "Confluence",
-            "type": "url",
-            "url": "https://confluence.cec.lab.emc.com:8443/display/NGMO/Veyron"
-         }, {
-            "date_added": "13167167958769133",
-            "id": "13",
-            "meta_info": {
-               "last_visited_desktop": "13167167958769759"
-            },
-            "name": "Slack",
-            "type": "url",
-            "url": "https://katalistcommunity.slack.com/"
-         }, {
-            "date_added": "13167167972120763",
-            "id": "14",
-            "meta_info": {
-               "last_visited_desktop": "13167167972121648"
-            },
-            "name": "WebMail",
-            "type": "url",
-            "url": "https://email.emc.com/owa/auth/logon.aspx?url=https://email.emc.com/owa/&reason=0"
-         }, {
-            "date_added": "13167169872974732",
-            "id": "17",
-            "meta_info": {
-               "last_visited_desktop": "13167169872975759"
-            },
-            "name": "uBlock Origin",
-            "type": "url",
-            "url": "https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en"
-         } ],
-         "date_added": "13167166909640742",
-         "date_modified": "13167169872974732",
-         "id": "1",
-         "name": "Bookmarks bar",
-         "type": "folder"
-      },
-      "other": {
-         "children": [  ],
-         "date_added": "13167166909640750",
-         "date_modified": "0",
-         "id": "2",
-         "name": "Other bookmarks",
-         "type": "folder"
-      },
-      "synced": {
-         "children": [  ],
-         "date_added": "13167166909640751",
-         "date_modified": "0",
-         "id": "3",
-         "name": "Mobile bookmarks",
-         "type": "folder"
-      }
-   },
-   "version": 1
-}
+<!DOCTYPE NETSCAPE-Bookmark-file-1>
+<!-- This is an automatically generated file.
+     It will be read and overwritten.
+     DO NOT EDIT! -->
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<TITLE>Bookmarks</TITLE>
+<H1>Bookmarks</H1>
+<DL><p>
+    <DT><H3 ADD_DATE="1522693309" LAST_MODIFIED="1546453581" PERSONAL_TOOLBAR_FOLDER="true">Bookmarks bar</H3>
+    <DL><p>
+        <DT><A HREF="https://dellemcocto.slack.com/" ADD_DATE="1522694358" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACnklEQVQ4jVWST0gUcRTHf7/f/Oa3O9vMruZm7rrlriYhG2TtKU2QkA5he8v8c4gOERRBgZaHoMxDIREey6IOhaG3oC5qh+gPEUZShmIiLi7qhu66uzM7M7/fzPw6jFi9y3uP93mP93hfeCrYDgAAAHDOIYSlYslillKuWMzSVd0n+zDBbsnF0L80NVnz6aau3k4IYbg23NXbWRXda1EG0TYNANjuRggxysK1ocHxOxBCrVCqObi/4+qZWDw2dPE+kTyO7WyTAAAAAaWUGjSXyf34NGtoRmVkj+gltmXLAVkkmBqmbdsQQs45hhAyg4ViVYFgwNTp87svAkH/9NTXy0OXkIAcx6EmjTZE1S21mC1gImKtWGpJNvc96iNeEQLo2I6aVzfX7zHGHNuhBk2cSAyODawtr99I9qtbKrYoC9eF/eXKzlmSLEXqqvVCScDCxurG0dZGn+KLxaNymZzfyGP/bv/rJ2/UnFoRrsAYU5PmMrnJ0alQLKRrxsToROW+SgHj6bfT6cW0R/Jgi1nVddWR+ggW8djweEuyuaahJhgO1h6K1R85kGhLWMxiJmOUzX2Z5w4HTeD404FnnHPO+YMrw24wcvPx7OdZ/r+dazzfppzEPsX3/tWH+LH44sxiam7Z1E0sYgDAw/6Rs9c6lHJZEDFCaObdTGblt0hETDwk/St9q/O2tqU1th6GECIBAQgQFlLzqcmXU6tLq8RLdFUnXgIRQpxz4iUCFohEBIyJl0AIIYDJC+0917t7+rqZyTjn0i7JhREAwHEc7nAs4vTCytLPJV3Tv3/8sfBtQStoa6l1AIH7Y1ca0FWrm9iWLcmSR/JkM1niJUqZnN8scM4RQn/F5zp3hoAFQzNKxRLxEMd2spmcgAV3kx15/wGqmFtABVVHlgAAAABJRU5ErkJggg==">Slack</A>
+        <DT><A HREF="https://eos2git.cec.lab.emc.com/Katalist" ADD_DATE="1522694045" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAC00lEQVQ4jT3STW9TRxgF4PedDzt2rrELpFAMFqAIpAKRW+EQ2zh8rEBkCQJEVyCoVFAX/AD4AYCQoGraRDQfgCDtLrsqLSxiUELAihJHCAQEqK3k4tRurq9dzx3PDIsIzvaczZEevDUweKv/N8d1wAAgcMY551orRECknvSazeZKtcpadebsaUylut26q7VCQjjncy/fiOUl+JTVbV9t3bxJSGm0JoRaQYs5rgNgCKFa6dz0k3Pnvj9w8EA4HNZKVyrlsb8fDA8O7OyIE0K1Vo7r4M5dcaSom6q87Ny8fi2dTlFKEREAjDFSyvFs9ocfL274sg0pGmUIIHDG5vIzfb0/JToThUJRCFGv12u1mhDewuJi1549A329+dlpzjgg0Fgs9uzp1KVLl48dPZrP5zOZTLC1Nfvo8cTk5Mzs7HenTh06dDiZ7PL5/SP378ViMbZyLpVKUkqrrgsAN37urzouIIRCFgBU3SqldG86vbJkjltLptLRaLRer2ezjwB8X29v96QHAD7Op3KN8fFsKpncuHFTKr136d8K00pzzhljWmvP81avW6OVlkICACWkbW1YSmmM4T7m87c0lSKW1TqRy9u2HQqF9u/rLtsLdqmEFBFx+T/HLr5PdnUFAoEP9oeZueeWFSScca+6VCgUFxYWN0Sjo6OjB/d3CyEBTDzeMTQ0nMlktNbz82/LdtHP/UR4Ykv7tsGh4apbnZyYJJR+E487jjM7M33yxPGeniPBYKBUKt2+c3dr+zYhBdFKfxEJ/zX258j9kURnwnGcQrHg8/kAQErJGCtXKr/29Y89HI9EIrqpGSB4nrc70Xn16pV/CoULF86LRuP9/CsAcGu1Z7lcb+8vf/w+8u3uTs8TgPgJn1ItLf4Xr99Vy/aOXR2IxGjtD7Tkpp5E2ta3b441GoJQagUt/MzbGOCcEUrE/w0kBACUUoFAwGjjSYFIVnh/BGpRbo8H8gZlAAAAAElFTkSuQmCC">Katalist</A>
+        <DT><A HREF="https://eos2git.cec.lab.emc.com/OCTO" ADD_DATE="1546453581" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAC00lEQVQ4jT3STW9TRxgF4PedDzt2rrELpFAMFqAIpAKRW+EQ2zh8rEBkCQJEVyCoVFAX/AD4AYCQoGraRDQfgCDtLrsqLSxiUELAihJHCAQEqK3k4tRurq9dzx3PDIsIzvaczZEevDUweKv/N8d1wAAgcMY551orRECknvSazeZKtcpadebsaUylut26q7VCQjjncy/fiOUl+JTVbV9t3bxJSGm0JoRaQYs5rgNgCKFa6dz0k3Pnvj9w8EA4HNZKVyrlsb8fDA8O7OyIE0K1Vo7r4M5dcaSom6q87Ny8fi2dTlFKEREAjDFSyvFs9ocfL274sg0pGmUIIHDG5vIzfb0/JToThUJRCFGv12u1mhDewuJi1549A329+dlpzjgg0Fgs9uzp1KVLl48dPZrP5zOZTLC1Nfvo8cTk5Mzs7HenTh06dDiZ7PL5/SP378ViMbZyLpVKUkqrrgsAN37urzouIIRCFgBU3SqldG86vbJkjltLptLRaLRer2ezjwB8X29v96QHAD7Op3KN8fFsKpncuHFTKr136d8K00pzzhljWmvP81avW6OVlkICACWkbW1YSmmM4T7m87c0lSKW1TqRy9u2HQqF9u/rLtsLdqmEFBFx+T/HLr5PdnUFAoEP9oeZueeWFSScca+6VCgUFxYWN0Sjo6OjB/d3CyEBTDzeMTQ0nMlktNbz82/LdtHP/UR4Ykv7tsGh4apbnZyYJJR+E487jjM7M33yxPGeniPBYKBUKt2+c3dr+zYhBdFKfxEJ/zX258j9kURnwnGcQrHg8/kAQErJGCtXKr/29Y89HI9EIrqpGSB4nrc70Xn16pV/CoULF86LRuP9/CsAcGu1Z7lcb+8vf/w+8u3uTs8TgPgJn1ItLf4Xr99Vy/aOXR2IxGjtD7Tkpp5E2ta3b441GoJQagUt/MzbGOCcEUrE/w0kBACUUoFAwGjjSYFIVnh/BGpRbo8H8gZlAAAAAElFTkSuQmCC">OCTO</A>
+        <DT><A HREF="https://eos2git.cec.lab.emc.com/dellemc-incubator" ADD_DATE="1546453522" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAC00lEQVQ4jT3STW9TRxgF4PedDzt2rrELpFAMFqAIpAKRW+EQ2zh8rEBkCQJEVyCoVFAX/AD4AYCQoGraRDQfgCDtLrsqLSxiUELAihJHCAQEqK3k4tRurq9dzx3PDIsIzvaczZEevDUweKv/N8d1wAAgcMY551orRECknvSazeZKtcpadebsaUylut26q7VCQjjncy/fiOUl+JTVbV9t3bxJSGm0JoRaQYs5rgNgCKFa6dz0k3Pnvj9w8EA4HNZKVyrlsb8fDA8O7OyIE0K1Vo7r4M5dcaSom6q87Ny8fi2dTlFKEREAjDFSyvFs9ocfL274sg0pGmUIIHDG5vIzfb0/JToThUJRCFGv12u1mhDewuJi1549A329+dlpzjgg0Fgs9uzp1KVLl48dPZrP5zOZTLC1Nfvo8cTk5Mzs7HenTh06dDiZ7PL5/SP378ViMbZyLpVKUkqrrgsAN37urzouIIRCFgBU3SqldG86vbJkjltLptLRaLRer2ezjwB8X29v96QHAD7Op3KN8fFsKpncuHFTKr136d8K00pzzhljWmvP81avW6OVlkICACWkbW1YSmmM4T7m87c0lSKW1TqRy9u2HQqF9u/rLtsLdqmEFBFx+T/HLr5PdnUFAoEP9oeZueeWFSScca+6VCgUFxYWN0Sjo6OjB/d3CyEBTDzeMTQ0nMlktNbz82/LdtHP/UR4Ykv7tsGh4apbnZyYJJR+E487jjM7M33yxPGeniPBYKBUKt2+c3dr+zYhBdFKfxEJ/zX258j9kURnwnGcQrHg8/kAQErJGCtXKr/29Y89HI9EIrqpGSB4nrc70Xn16pV/CoULF86LRuP9/CsAcGu1Z7lcb+8vf/w+8u3uTs8TgPgJn1ItLf4Xr99Vy/aOXR2IxGjtD7Tkpp5E2ta3b441GoJQagUt/MzbGOCcEUrE/w0kBACUUoFAwGjjSYFIVnh/BGpRbo8H8gZlAAAAAElFTkSuQmCC">Incubation</A>
+        <DT><A HREF="https://git-cd.isus.emc.com/CNDP-ISG" ADD_DATE="1543246736" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACtUlEQVQ4jU2TT2hcZRTFf/f7vvdeJxObgt2UgknTmSb+C6gLwRadUWkqumjAQbqouNCNWJduna4E/0BcCi5Kdk6WQrcZcCGCVDdxo5WYuGytEvNn3nvfd1xMJ3Fx4XA553Lv4R76fRzAzovz7Z3lJ1oA/T5Okh0XJmEAW5cXzm2//NT5Cc99POw4gOSz91Sl9wFeethjrAFg2O14ABftA1n90YQXbDisBX7HbAWsFDgbDiMGkgDDTIDVABJXQA6gOxzWDmC721o0s3nQ41ud9hIg9W/aeAMxxvB7d2HBoB3MLmy92noGIACY91eb3lySsR/TK8DPbK4HblKD8cvmk0FQ/ensrSnvMgPqGK4APwWAeMhyWSghiLXvAV/Y+mbJ+sSBzRJgq6ZbSQkDlbwh+NRGX80tlnfyH2zPGnISoN379m21x6HzYxdTRMWU/PRpVgTOkllqqDzxdHUxuEfya9OX7KR+TBUit0z4Mntz/9DhgwBIGNMzifx0RYqGocqes2YqwrKj5HUa1HEWxYqUKhPNONpLsdqtVO/Wqv9NsYyNeJiiKY1IaRapIHLIuw6nDCzYGZydpaaCbEpZlmNJCkqErMDlTeWMwM5ScwZnZj4hXKgeXEoH9dc+uMA5cs0w8sKKkwKZkJRPCycsnaK0eTKfuZDKdCuE8vmjVyvX2u/4nFVX2YzuaHTwl/l7286boUdnUzxxSsk964qU6R9V8cNw/e4agJMwDXo+f/vXW/XfoxeU8Z0tuSJvIheozaOigbklVyik7+t76WK4fndNg55Xv+8YB0WmjU4AUA8f19ufabWtByuLun91UVptq/qm9flGZ/x42uiEScg4AoAGPX+Eb7cu79+48Nv+jYU/dPv8a5NTNej5h5kwSXa8gTQWSqYBHuDgy/nHDj6ZmxsLOR7+v6j/B88/deiIvxp7AAAAAElFTkSuQmCC">CNDP-ISG</A>
+        <DT><A HREF="https://www.pivotaltracker.com/dashboard" ADD_DATE="1522694107" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC7ElEQVQ4jV2Tb2jUBRzGP9/f72fd2tTanzBocAwb/VmI3AW9WCNCJIT9jaKUOS+oZm8m5hTZGQe2MWhFJJiO8OYWGdwmGiYUFL0JQzxdx8YIdlsY0bLbht1ym3f3e3qxzWTf9w/f5+H5PMa6az56ttpcf7eMMCIEFDCumUjWf/3FbPmtmdeActCpksCdz73/pbKWroEOmd8jKEKWkZTEzDWpriwz01h+a+a+V3ZiYekhbE3cFB24ZLALdMXx3faRnrZU+nBNuGr6qRuWSBTObX3+YslCtmGd4XEHoKVroMNgF0bvNu9mbW/2+K9Th2oGTVydCk68DVC8kJ1YHxfIWPPRs9W4/ihodJt3szYWi/kAU5013wI7gVnLeVsX/8l/mr6sPYCzpp4vrdjvmevvFhQ5vtve9u9ItLWzphTAMRv0pZeAMt/z9wXKaK1uNv64ou/+Wti89MOO+obZsi0BR0YYLDPS05YSetOgw6DDx39fvj4WXMD8VoANJUxXvrDc8MbkT02Z8i1ZGWEPEZKUXHX1M/AbgLA/lzbqWGDxwSLT8gTitpkdfOLE5DIYEL+OEXJWejYXoOrDsdcFg0DQROXTsfHc/Dx3QOcEX/nSy+lDzx5crdFFFLwVSFQHkD4S2mz+ci9QAZqc7nzm1MNaHkf2rkFgRacfY7HYJ6m8tguGPRNJQWPLsfhzzuJHzTIqgLzMhk185hhzPup2sB0r0fgllQvWylRskPR8jyHL22FJ/b9veGTn47m5jWZOTsp/D+5doNSRPVbVN/YiwL5YPKCCbiDmXI+EATRFz+w37KTEyUf/vnugv/+d3CoLfcB7BpeDxWP1EeIP3M7rNNheE3vPd0eG7qHcHB0YBlqAUd/UfvF45Gr6SHiTFZbqBkte/SaVC9bK0WnEk4IvL3wQ2QOsbWF1idH4W0AfsAnIAtfBXEPbBcXAnIkD57sjQ/cmtR7uxq4zlS72iowwRghRAK4ZJF2PRCIWuX+S/Ac380jI3NSyFAAAAABJRU5ErkJggg==">Pivotal Tracker</A>
+        <DT><A HREF="https://realtimeboard.com/app/dashboard/" ADD_DATE="1533757390" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQUlEQVQ4jWP8/TjyPwMFgIkSzaMGjBoweAxgIdlGviA4++f3N0vJdsHP72+WcklkZpJlAEwzAwMZYYCsmYGBgQEANfMUmtu6zb0AAAAASUVORK5CYII=">RealtimeBoard</A>
+        <DT><A HREF="https://ci01.ose.lab.emc.com/dashboard" ADD_DATE="1522694159" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADdUlEQVQ4jW3TS0xcZRjG8ef9zpwL0M6VGWaKFOxMGQiFClJQE6BK29jWGIlMlaZCatIYSY1pvSzc1EYTd2qMaeLKRU1YlDQxWhOLJGANusAuWGi9VQLYQVJgrmfOnMv3umiMmvis/ptn+SPcGwFgAOg9Oj6qCDEmmYeZ2c8MACgUTXPWJ2jqh7kr0//+KH9H15GRWHP6oY9J0JuW7bQ7jmMwMxRFoFq1jdcmx9vrw6ET65be0dZ7cH711mIZAAkAnBrIRA2ff0aSyFiW5XWm7/f6HujgvXuaqFgy6amjB/n0iePQNNUjRc2wa8+kBjJRACwAULCu5pJHSpdPsP3S88+KXfGYyOWLWN/Y5MZElM+fGUPFqvKRoX6RqA/YtsddwR01lwCQ6Dl0coSEGPWcqvvKC6fU5dU75Doe4g0RyuWLdHiwn0JBP7meh+zGXbpw7ozKnuMSidGex0+OCM3QJ4pmhTPHH4OUEvFYhIlAcwvfg4jw6CMPAgCuzdyg7VyRV7MbePLwIIpmhVVFnxCO6w15joPWZLMiWVKNYdDUp19CSobPp8CsWLg8/QXOXXwfpVKZfr69QuFQQFEVASnlkNKU7n5noG8/jT4xTKmW+zgejVBfdwcioQDOns4gFgnh1bc/QG2NgXyxhLraWpbSozt/3qWq4xi+nn1pvHfxPDRVBQBKxIDW5G44rgtBBF3XEA768Ud2A7bjIlcoQkoPtm1DkAAdODaRa9rV4E/EomCWxMz45fcVbG7nYVYsvP7iOA4NHMDLF97Fyto6YtEwGqIRvrn0IwxdLyjxZOfDm9vF9K/LK97KWpaW17IwDJ3KZgWligVD13Dq6WMY7O/G57PfsFmxkMuXPJAQYL6uJFr227qhPUME2ZpsFvXhIEVCAe5sT1FDJIzAzjr0dKYRj9Uj5N9Jn818DUURTESKdJw3lOztpVuJPR0dql6zb2sr53S27RWBoB9W1UFXWxKNiRjKFQupliZKJ5t5/rubzlbeVBXI6cXrn7wlALBXrk56jr2kqLo29+2iNMsV2ZZqBgDSNI1YMj66fNXbyhVkf2+3ls9vL0V2BCYBMP2D6bmY7hMfApQxrSo0n4JI6B7GfKFE+ZKJ5O5GGLp65av5hbOl3xY2ABD9L2efMua53rDjun6A4FOUgmaos1ub21M/3bj6H85/AYUHhkuyz122AAAAAElFTkSuQmCC">Concourse</A>
+        <DT><A HREF="http://10.240.18.100:8080/" ADD_DATE="1522694200">Docker Registry</A>
+        <DT><A HREF="http://10.240.18.100/" ADD_DATE="1530131527">Docker Cache</A>
+        <DT><A HREF="https://vc01.ose.lab.emc.com/" ADD_DATE="1522694419">vCenter</A>
+        <DT><A HREF="https://confluence.cec.lab.emc.com:8443/display/NGMO/Veyron" ADD_DATE="1522694329" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACcUlEQVQ4jW2SXWjPURjHv8/znN9/jJmlxUpGaSMvZU3cCLULL+VCM1HkJWpx5YJdoGU3uJCi5sZLiptRWhmuaBILN0KIYWLe10zk73e+j4v/9t9/eOrcPM/5fL6nc44AAJZcD5hQsg2q3wG2o622H/+pssY36+FokCQ5+PXYxC5AXAAAa+/PNLdrqlquIdxUC6czxUVX+1sr+4bg8TveVQaRC6JSq2Y9liTHi0I4KwCQ2fB4r0JaVBWqBjXNarB7aklbonoHFopFZJcIVooZVBVqmqrZXRm1tbsyONtFdK5aXgDJyVzNvquqqWnx8CwnEZVLochQLZqpUM2bCyQmaloyPDOIKkQEIvKAxN5QlpXOgTG6zkLYYiFZrqZlfwO5tBw4WG/Fsef5fnmU78xq9kzfr4H5iSabgukKMasQVSmAAMABPBBH09N9chUARkwBAGvcquZgNhQrXbBAiXIXOAQfQXSmCS52N0nP0PYRgunNPlkCVotgMRyTxCFUfBJHF4jLz2bgIRokFjJ5QVWL14ngkAPzRojd4e5OspcxdsSUZ0qKRt991CzZvKCqxesEOOmCKcOc5xYjGAmScBJk7GP0K5HpqdFfB25JdYtXQ3DegZo8yByQg3KCf3rkZ9A3BgcOAF7j9IIUguQPkDEyjmWkOEecAk58iGZPgnusYPSUjGEoCc6OSD0C+g96XBjTWM8Ya0lmBtPh8AvfWqe9DIxWn8afGzxyJ2OcSvh9qu94f3jcq8HruF3a+PqMiizj77iZ5CInv4BoK3gFl8m7v82PadoE8mLv0fJz//wPAGXbX5Rms1xFpqU/e96fwI2l6R8jt1VMbwQzNAAAAABJRU5ErkJggg==">Confluence</A>
+        <DT><A HREF="https://email.emc.com/owa/auth/logon.aspx?url=https://email.emc.com/owa/&reason=0" ADD_DATE="1522694372" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACTklEQVQ4jY2SzUuUURTGf/f1zUmdadSGiAQniJJSpKCiMqJF0dIgIWiVtHLb3mVkH4bgrk1/QKsWRRiEQbVRoiDRipQgGh0dNT/Gcd57zmnxjqgF4bM599zDee7znHMdFSwMZ3tN6VLRFieWUDFMFBPDfHxWX8lFMW+oaNw8/zp7f2m006/PvDRdL5iZ2E4wNZi0cGE421tVd/x2srWvypXHoXAHSp8hyoN6MA8abUYEJIITBcwboXm6Es09cfPcQ9CI0vwy8z8biBYnMHWYBOxKtpG5NEiiroj7dgUAFSFQ0Zaw/hQU34J6ouUiM2NFyoWPEES4MMD8GqX8CLln3Xh/AGt6AIBFRmCiiaC6HtbGQD2/JxeQYgG1kIaTd2m6NkJjeyeoozw7wcLoE8jcjAnUCCwyIAA/C+ZZya2iESSzV9nT2kM4dZZ08hWJVC2qsDr5HnAxgVdCFaFiCMwTrRjqHIl9HZXBCQ5PdY1H1x2+uLKxeUyN0LxVsgjUI2XAQCMfv2QCJmjZ0CgAzyaBQWBetylwBEjJsfz1TUwQ1KGRsDKXxrwjTDVtMqgRaFQhwIMJqf1VSDlg8dMQ00N9rKafkvtxnbVfy1gZUkcvx9YqCE02LMSfJnOsiqVchvW5afIv+sk/78fMYepIHblI45kbuPHz0DYCsEWBCKinOikcvDBD8vBpCOqAGlx1PXs7btHc/Zggfw+KH7Yq2G4BE3anhUMd7+CcgGl8zwB8GeBvhLahoD33T3EncN8f1Zp5xdRADFNFJZ6wWWVX/8EfA6yTK7s03s4AAAAASUVORK5CYII=">WebMail</A>
+    </DL><p>
+</DL><p>
