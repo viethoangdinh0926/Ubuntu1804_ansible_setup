@@ -15,6 +15,7 @@
   - role: git-duet
   - role: fly
   - role: docker
+  - role: vscode
   - role: misc
   - role: postman
   - role: proxy

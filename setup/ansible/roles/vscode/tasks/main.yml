@@ -1,0 +1,10 @@
+---
+- name: Install Snap
+  become: true
+  shell: |
+    apt install snap
+
+  name: Install VSCode
+  become: true
+  shell: |
+    snap install vscode --classic
