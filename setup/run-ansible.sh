@@ -28,6 +28,11 @@ cd Ubuntu1804_ansible_setup/setup/ansible
 
 ansible-playbook site.yml --connection=local -vv --extra-vars 'ansible_become_pass=IloveEMC'
 
+ret_code=$?
+if [ $ret_code != 0 ]; then
+    exit 1
+fi
+
 echo "IloveEMC" | sudo -S sed -i '$d' /home/tom/.profile
 echo "IloveEMC" | sudo -S sed -i '/gnome-terminal/d' /home/tom/.bashrc
 echo "IloveEMC" | sudo -S sed -i '/AutomaticLogin/d' /etc/gdm3/custom.conf
