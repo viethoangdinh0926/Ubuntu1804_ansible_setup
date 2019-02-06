@@ -20,8 +20,8 @@
     code --install-extension --force PeterJausovec.vscode-docker
     code --install-extension --force robertohuertasm.vscode-icons
     code --install-extension --force wayou.vscode-todo-highlight
+    
 - name: Create Directory
-  become: true
   file:
     path: "~/.config/Code/User/"
     state: directory
