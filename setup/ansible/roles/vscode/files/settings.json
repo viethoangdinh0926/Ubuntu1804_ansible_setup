@@ -1,0 +1,47 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "files.autoSave": "afterDelay",
+  "go.coverageDecorator": {
+    "type": "gutter",
+    "coveredHighlightColor": "rgba(64,128,128,0.5)",
+    "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+    "coveredGutterStyle": "blockblue",
+    "uncoveredGutterStyle": "slashyellow"
+  },
+  "go.lintTool": "golangci-lint",
+  "go.autocompleteUnimportedPackages": true,
+  "window.zoomLevel": 1,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "go.formatTool": "goimports",
+  "workbench.colorTheme": "dark-plus-syntax",
+  "window.menuBarVisibility": "toggle",
+  "editor.scrollBeyondLastLine": false,
+  "editor.mouseWheelScrollSensitivity": 2.5,
+  "explorer.confirmDelete": false,
+  "go.lintFlags": [
+    "--skip-dirs configuration"
+  ],
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "files.watcherExclude": {
+    "**/vendor/**": true
+  },
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.go",
+    "**/*.py"
+  ],
+  "todohighlight.isEnable": true,
+  "explorer.confirmDragAndDrop": false,
+  "go.gocodeAutoBuild": true,
+  "go.lintOnSave": "workspace",
+  "go.buildOnSave": "workspace"
+}
