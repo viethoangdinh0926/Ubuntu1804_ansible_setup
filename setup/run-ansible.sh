@@ -11,6 +11,10 @@ echo "IloveEMC" | sudo -S dpkg --configure -a
 echo "IloveEMC" | sudo -S apt install -y software-properties-common
 echo "IloveEMC" | sudo -S apt-add-repository -y ppa:ansible/ansible
 echo "IloveEMC" | sudo -S apt update
+echo "IloveEMC" | sudo -S rm /var/lib/apt/lists/lock
+echo "IloveEMC" | sudo -S rm /var/cache/apt/archives/lock
+echo "IloveEMC" | sudo -S rm /var/lib/dpkg/lock
+echo "IloveEMC" | sudo -S dpkg --configure -a
 echo "IloveEMC" | sudo -S apt install -y git openssh-server ansible
 
 echo "all:" | sudo tee --append /etc/ansible/hosts
