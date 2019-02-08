@@ -1,13 +1,9 @@
 ---
-- name: Download Docker .deb package
-  get_url:
-    url: https://download.docker.com/linux/ubuntu/dists/bionic/pool/stable/amd64/{{ docker_version }}
-    dest: /tmp/docker_latest.deb
-    
 - name: Install Docker .deb package
   become: true
+  ignore_errors: yes
   apt:
-    deb: /tmp/docker_latest.deb
+    deb: https://download.docker.com/linux/ubuntu/dists/xenial/pool/edge/amd64/{{ docker_version }}
 
 - name: Fix any broken deps
   become: true
