@@ -19,3 +19,4 @@
   - role: misc
   - role: postman
   - role: proxy
+  - role: zoom

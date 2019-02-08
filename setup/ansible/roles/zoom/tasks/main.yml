@@ -1,0 +1,17 @@
+---
+- name: Download Zoom
+  get_url:
+    url: https://zoom.us/client/latest/zoom_amd64.deb
+    dest: /tmp/zoom_latest.deb
+
+- name: Install zoom .deb package
+  become: true
+  apt:
+    deb: /tmp/zoom_latest.deb
+    
+- name: Fix any broken deps
+  become: true
+  shell: |
+    apt-get -y -f install
+  args:
+    executable: /bin/bash
