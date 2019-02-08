@@ -1,16 +1,30 @@
 ---
-- name: Install Docker .deb package
-  become: true
-  ignore_errors: yes
-  apt:
-    deb: https://download.docker.com/linux/ubuntu/dists/bionic/pool/edge/amd64/{{ docker_version }}
-
-- name: Fix any broken deps
+- name: Install Snap
   become: true
   shell: |
-    apt-get -y -f install
-  args:
-    executable: /bin/bash
+    apt install snap
+
+#- name: Install Docker
+#  become: true
+#  shell: |
+#    snap install docker
+
+- name: Install docker
+  shell : |
+    curl -sSL https://get.docker.com/ | sh
+
+#- name: Install Docker .deb package
+#  become: true
+#  ignore_errors: yes
+#  apt:
+#    deb: https://download.docker.com/linux/ubuntu/dists/bionic/pool/edge/amd64/{{ docker_version }}
+
+#- name: Fix any broken deps
+#  become: true
+#  shell: |
+#    apt-get -y -f install
+#  args:
+#    executable: /bin/bash
 
 - name: configure docker
   become: true
