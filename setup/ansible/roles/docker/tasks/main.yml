@@ -3,7 +3,7 @@
   become: true
   ignore_errors: yes
   apt:
-    deb: https://download.docker.com/linux/ubuntu/dists/xenial/pool/edge/amd64/{{ docker_version }}
+    deb: https://download.docker.com/linux/ubuntu/dists/bionic/pool/edge/amd64/{{ docker_version }}
 
 - name: Fix any broken deps
   become: true
