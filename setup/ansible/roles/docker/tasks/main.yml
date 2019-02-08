@@ -1,30 +1,25 @@
 ---
-- name: Install Snap
+- name: install docker step 1
   become: true
   shell: |
-    apt install snap
+    apt install -y apt-transport-https ca-certificates curl software-properties-common
+  args:
+    executable: /bin/bash
 
-#- name: Install Docker
-#  become: true
-#  shell: |
-#    snap install docker
+- name: install docker step 2
+  shell: |
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  args:
+    executable: /bin/bash
 
-- name: Install docker
-  shell : |
-    curl -sSL https://get.docker.com/ | sh
-
-#- name: Install Docker .deb package
-#  become: true
-#  ignore_errors: yes
-#  apt:
-#    deb: https://download.docker.com/linux/ubuntu/dists/bionic/pool/edge/amd64/{{ docker_version }}
-
-#- name: Fix any broken deps
-#  become: true
-#  shell: |
-#    apt-get -y -f install
-#  args:
-#    executable: /bin/bash
+- name: install docker step 3
+  become: true
+  shell: |
+    add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+    apt update
+    apt install -y docker-ce
+  args:
+    executable: /bin/bash
 
 - name: configure docker
   become: true
