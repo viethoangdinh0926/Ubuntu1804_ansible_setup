@@ -24,11 +24,8 @@ echo "    127.0.0.1" | sudo tee --append /etc/ansible/hosts
 sudo chmod a+w /var/log
 touch /var/log/ansible.log
 
-cd /tmp
-rm -rf Ubuntu1804_ansible_setup
-git clone https://github.com/viethoangdinh0926/Ubuntu1804_ansible_setup.git
-
-cd Ubuntu1804_ansible_setup/setup/ansible
+cd /home/tom
+cd Ubuntu1804_ansible_setup-v1.0/setup/ansible
 
 ansible-playbook site.yml --connection=local -vv --extra-vars 'ansible_become_pass=IloveEMC'
 

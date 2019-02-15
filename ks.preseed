@@ -54,8 +54,8 @@ d-i finish-install/reboot_in_progress note
 
 # Custom Commands after Ubuntu installation
 ubiquity ubiquity/success_command string \
-    cp -r /cdrom/setup /target/home/tom;\
-    in-target chmod +x /home/tom/setup/run-ansible.sh;\
+    cp -r /cdrom/Ubuntu1804_ansible_setupv1-0/setup /target/home/tom;\
+    in-target chmod +x /home/tom/Ubuntu1804_ansible_setupv1-0/setup/run-ansible.sh;\
     in-target chown -R tom.tom /home/tom;\
     echo "gnome-terminal" >> /target/home/tom/.profile;\
     echo "gnome-terminal -- sh -c 'sleep 15; /home/tom/setup/run-ansible.sh; exec $SHELL'" >> /target/home/tom/.bashrc
